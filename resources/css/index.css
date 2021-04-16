@@ -56,6 +56,6 @@
      transition: all 0.5s;
      font-weight: 500%;
  }
- .fa, .far, .fas {
+ .btn {
     font-family: 'Montserrat' !important;
 }

@@ -53,8 +53,10 @@ function addToDOM(array){
           </div>
           <div class=mx-2>
           <a class="carousel-control-next " href="#myCarousel${j}" data-slide="next" style="background color: white">
-          <span class="carousel-control-next-icon"></span>    
+          <span class="carousel-control-next-icon">
           <i class="fa fa-angle-right fa-2x"></i>
+          </span>    
+          
         </a>
           </div>
           
