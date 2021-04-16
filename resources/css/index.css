@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+#hr-pink{
+    background-color: darkorchid;
+    height: 10px;
+    /* width: 0.5%; */
+    margin: 0 0 0 16px;
+    border-radius: 10px;
+}
+.sont1{
+    padding: 10px;
+    border-bottom: 1px solid #E1E4E8;
+}
+
+.fa-angle-right{
+    color: darkgrey;
+}
+.carousel-control-next{
+    /*background-color: rgb(238, 231, 228);*/
+    width: 20px;
+    border: 1px solid whitesmoke;
+    padding: 2px;
+}
+.card{
+    border: none;
+}
+.card-header{
+    background-color: white;
+    border-bottom: none;
+}
+.btn-light {
+    background-color: white;
+}
+
+.btn{
+    font-family: "Montserrat";
+    font-weight: 500%;
+    width: 100%;
+    text-align: left;
+}
+.fa-chevron-up[aria-expanded="false"]::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    transition: all 0.5s;
+    font-weight: 500%;  
+    
+ }
+ .fa-chevron-up[aria-expanded="true"]::before{
+     font-family: "Font Awesome 5 Free";    
+     content: "\f077";
+     padding-right: 3px;
+     vertical-align: middle;
+     font-weight: 900;
+     transition: all 0.5s;
+     font-weight: 500%;
+ }
+ .fa, .far, .fas {
+    font-family: 'Montserrat' !important;
+}
